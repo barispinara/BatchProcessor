@@ -3,9 +3,9 @@
 This system helps to generate batches according to given limitation.
 ## What's new in this new version ?
 After getting useful feedbacks, I decided to change the project according to given feedback.
-* Old version didn't contain any unit testing module (Test function was written manually). However, new version is using **unittest** testing library for unit testing. I also created *TestSuite* in the project.
+* Old version didn't contain any unit testing module (Test function was written manually in old version). However, new version is using **unittest** testing library for unit testing. I also created *TestSuite* in the project.
     > You can run all test cases from *test_runner.py*
-* More readable and clean code. I tried to decrease line of codes, unnecessary comments and unused imports.
+* I tried to decrease line of codes, unnecessary comments and unused imports. Therefore, I hope that new version is more readable and cleaner
 * After several research about Python coding language. I found this styling guide https://peps.python.org/pep-0008/ and I tried to follow this style while re-developing the new version.
 * I also discover *pylint* for analysing the python project. Here you can see current rate score
 ![Pylint Image](images/pylint_score.png)
